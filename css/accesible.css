@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1{
+    font-size:3em;
+    text-align: center;
+}
+h1, h2 {
+    color: #135dab;
+}
+
+header {
+    background-color: #0b3057;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    /* background-color: #000000 !important;  */
+    color: #000000 !important;
+    border: none;
+    cursor: pointer;
+}
+
+label {
+    display: none;
+}
+
+input[type="text"] {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    padding: 10px;
+    background-color: #eaeaea !important;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+    margin: 10px 0;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
